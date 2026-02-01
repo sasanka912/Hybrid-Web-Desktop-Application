@@ -2,8 +2,8 @@
 
 A hybrid application that runs as both a web app and a desktop app. Upload CSV files containing chemical equipment data (name, type, flowrate, pressure, temperature), view summary statistics and charts, and keep a history of the last five uploads. The same Django API powers both the React web interface and the PyQt5 desktop client.
 
-## What’s in the repo
-
+## What’s in the drive link
+Drive link : https://drive.google.com/drive/folders/1i4SEdfaj-EfZd9mXAwIb1opQNaS-ImhL?usp=sharing
 - **backend** — Django + Django REST Framework. Handles CSV uploads, stores the last five datasets in SQLite, exposes summary and history APIs, and serves PDF reports. Basic authentication is required for all API access.
 - **frontend** — React app with Chart.js for tables and charts. Uses the same API as the desktop client.
 - **desktop** — PyQt5 app with Matplotlib for the same visualizations (bar chart for parameter averages, pie chart for equipment type distribution). Connects to the same backend.
